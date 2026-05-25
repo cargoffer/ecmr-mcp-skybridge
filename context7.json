@@ -1,0 +1,30 @@
+{
+  "id": "ecmr_mcp_skybridge",
+  "name": "Cargoffer eCMR",
+  "description": "Electronic Consignment Note MCP for digital CMR documents",
+  "version": "1.0.0",
+  "author": "Cargoffer Team",
+  "homepage": "https://docs.cargoffer.com/ecmr",
+  "repository": "https://github.com/cargoffer/ecmr-mcp-skybridge",
+  "keywords": [
+    "ecmr",
+    "cmr",
+    "consignment",
+    "digital waybill",
+    "mcp",
+    "logistics",
+    "cargoffer"
+  ],
+  "capabilities": [
+    "authentication",
+    "addresses",
+    "drivers",
+    "vehicles",
+    "ecmr_crud",
+    "signatures",
+    "qr",
+    "pdf",
+    "files",
+    "send"
+  ]
+}

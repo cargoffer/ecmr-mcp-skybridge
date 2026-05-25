@@ -1,0 +1,28 @@
+# ECMR MCP Server - LLMs Index
+
+## Overview
+
+ECMR (Electronic Consignment Note) MCP server for Cargoffer B2B logistics platform.
+
+## Tools
+
+- `ecmr_auth_login` - Login with email/password
+- `ecmr_auth_register` - Register new company
+- `ecmr_addresses_list`, `create`, `update`, `delete`
+- `ecmr_drivers_list`, `create`, `update`, `delete`
+- `ecmr_vehicles_list`, `create`, `update`, `delete`
+- `ecmr_create`, `get`, `list`, `update`, `delete`, `lock`
+- `ecmr_sign_sender`, `pickup`, `delivery`
+- `ecmr_signatures_list`
+- `ecmr_qr_generate`, `validate`
+- `ecmr_pdf`
+- `ecmr_file_upload`, `download`
+- `ecmr_send`
+
+## Schema
+
+All tools take an `arguments` object with the parameters defined in the tool definition.
+
+## API Reference
+
+See https://docs.cargoffer.com/ecmr
